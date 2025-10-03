@@ -47,4 +47,4 @@ if __name__ == "__main__":
     parser.add_argument("--provider", choices=["chatgpt","deepseek"], default="chatgpt")
     parser.add_argument("--k", type=int, default=3)
     args = parser.parse_args()
-    asyncio.run(interactive(provider_name=args.provider, k=args.k))
+    interactive(provider_name=args.provider, k=args.k)
