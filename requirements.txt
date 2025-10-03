@@ -1,0 +1,12 @@
+openai>=1.0.0
+requests
+sentence-transformers>=2.2.2
+faiss-cpu
+pypdf
+pandas
+tqdm
+python-dotenv
+numpy
+scikit-learn
+rich
+uvicorn
